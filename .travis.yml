@@ -13,5 +13,6 @@ deploy:
   target_branch: gh-pages
   local_dir: _build/html
   token: $TESTSP_TOKEN
+  skip_cleanup: true
   on:
     branch: master
