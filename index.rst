@@ -11,7 +11,8 @@ Welcome to Ludwig's documentation!
    :caption: Contents:
 
 
-Currently a test.
+Please ignore this.
+
 
 Indices and tables
 ==================
