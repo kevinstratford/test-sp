@@ -12,7 +12,7 @@ deploy:
   repo: kevinstratford/test-sp
   target_branch: gh-pages
   local_dir: _build/html
-  github_token: $TESTSP_TOKEN
-  skip_cleanup: true
+  token: $TESTSP_TOKEN
+  cleanup: false
   on:
     branch: master
