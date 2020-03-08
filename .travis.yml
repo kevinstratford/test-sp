@@ -1,0 +1,15 @@
+install:
+  - pip install --user sphinx
+
+script:
+  - make html
+
+deploy
+  provider: pages
+  repo: test-sp
+  target-branch: master
+  local-dir: _build/html
+  github_token: $TESTSP_TOKEN
+  skip-cleanup: true
+  on:
+    branch: master
